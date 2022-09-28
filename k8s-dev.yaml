@@ -14,7 +14,7 @@ spec:
         app: jenkins-demo
     spec:
       containers:
-      - image: Taomercy/jenkins-demo:<BUILD_TAG>
+      - image: taomercy/jenkins-demo:<BUILD_TAG>
         imagePullPolicy: IfNotPresent
         name: jenkins-demo
         env:
